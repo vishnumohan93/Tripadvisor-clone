@@ -1,0 +1,211 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'PT Sans', sans-serif;
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+}
+.heading__left{
+    font-size: medium;
+    display: flex;
+    gap: 10px;
+    margin-left: 100px;
+    padding: 20px;
+}
+.heading__left img{
+    border: solid black 1px;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+}
+.heading h1{
+    margin-top: 5px;
+    
+}
+.heading__Categories p:hover{
+    background-color: gray;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+.heading__Categories{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-weight: bold;
+    gap: 50px;
+}
+.sides{
+    display: flex;
+    height: fit-content;
+}
+.sides img{
+    width: 20px;
+    height: 20px;
+    border: 0;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+.sides p{
+    margin-left: 10px;
+    margin-top: 35px;
+}
+.sides button{
+    border: black solid 1px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 80px;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.sides button:hover{
+    cursor: pointer;
+}
+.Where{
+    font-family: 'Lato', sans-serif;
+    font-size: larger;
+    text-align: center;
+    margin-top: 30px;
+}
+.Categories{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    
+}
+.Categories__search:hover,.Categories__Hotels:hover,.Categories__Things:hover, .Categories__Restaurants:hover, .Categories__Vacation:hover{
+    border-bottom: solid black 1px;
+}
+    
+
+
+.Categories__search,.Categories__Hotels,.Categories__Things, .Categories__Restaurants, .Categories__Vacation{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.Categories__search img,.Categories__Hotels img,.Categories__Things img, .Categories__Restaurants img, .Categories__Vacation img{
+    height: 25px;
+    width: 25px;
+    
+}
+.Categories__search p,.Categories__Hotels p,.Categories__Things p, .Categories__Restaurants p, .Categories__Vacation p{
+
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: bolder;
+
+
+}
+.navbar{
+    display: flex;
+    width: 50%;
+    margin-top: 15px;
+    border-radius: 30px;
+    align-items: center;
+    border: solid black 1px;
+    gap: 10px;
+    padding: 10px;
+    margin-left: 400px;
+    
+}
+.navbar img{
+    width: 20px;
+    height: 20px;
+
+}
+.navbar input{
+    width: 100%;
+    border: none;
+    outline: 0;
+}
+.navbar button{
+    background-color: #34E0A1;
+    padding: 10px;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    width: 15%;
+    font-weight: bold;
+    font-size: medium;
+}
+.navbar button:hover{
+    cursor: pointer;
+}
+.container-1 img{
+    width: 75%;
+    height: 30%;
+    margin-top: 25px;
+    margin-left: 200px;
+    border-radius: 30px;
+}
+.container-2{
+    display: flex;
+    background-color: #FAF1ED;
+    color: black;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 180px;
+    padding: 10px;
+    
+}
+.container-2__text{
+    margin-top: 10px;
+    padding-top: 25px;
+}
+.container-2__text p{
+    
+    margin-top: 25px;
+}
+.container-2__text button{
+    border: solid black 1px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 15%;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.container-2__text button:hover{
+    cursor: pointer;
+}
+.ways{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.ways p{
+    margin-top: 10px;
+}
+.locations{
+    display: flex;
+    gap: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    
+}
+.locations-1 img,.locations-2 img,.locations-3 img,.locations-4 img{
+    height: 90%;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+    border-radius: 15px;
+ 
+}
+.locations-1 img:hover,.locations-2 img:hover,.locations-3 img:hover,.locations-4:hover{
+    cursor: pointer;
+    
+
+}
+
+
+
